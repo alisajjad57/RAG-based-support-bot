@@ -100,6 +100,7 @@ if __name__ == "__main__":
     question = "Add Test Question"
     # question = "can GPUs help me in online shopping?"
     # question = "can i use numba with jupyter notbook?"
+    # question = "what was the purpose of award to tgen team?"
     related_docs = get_similarities_from_chroma_db_test(question)
     print("Related docs:")
     for doc in related_docs:
